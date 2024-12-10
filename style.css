@@ -37,7 +37,7 @@ body {
 .main {
     width: 100%;
     height: 100%;
-    background: url(Untitled\ design\ \(2\).png);
+    background: url(main.png);
     display: flex;
     color: aliceblue;
     background-size: cover;
@@ -96,7 +96,7 @@ body {
 }
 
 .section2 .card .cards {
-    background-color: aliceblue;
+    background-color: #fff;
     width: 15%;
     height: 250px;
     border: none;
@@ -107,7 +107,7 @@ body {
 .section2 .card .cards .pic {
     width: 70%;
     height: 140px;
-    background-color: rgb(233, 14, 14);
+    /* background-color: rgb(233, 14, 14); */
     border: none;
     border-radius: 10px;
     display: flex;
@@ -115,17 +115,34 @@ body {
 
 }
 
+.section2 .card .cards .pic .bba {
+    margin-left: -25px;
+}
+
+.section2 .card .cards .pic .bsc {
+    margin-left: -30px;
+    width: 200px;
+}
+
+.section2 .card .cards .pic .mca {
+    margin-left: -25px;
+}
+
 .section2 .card .cards .content h1{
     position: absolute;
     margin-top: 180px;
     font-size: 20px;
-    margin-left: 10px
+    margin-left: 20px
 }
 
 .section2 .card .cards .content p{
     position: absolute;
     margin-top: 210px;
-    font-size: 16px;
-    margin-left: 10px;
+    font-size: 14px;
+    margin-left: 20px;
     color: rgba(165, 42, 42, 0.781);
+}
+
+.section4 {
+
 }
